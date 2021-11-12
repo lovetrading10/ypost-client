@@ -1,0 +1,86 @@
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  opacity: 0;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.2s;
+}
+
+@keyframes fadeOutOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.rotate {
+  animation: rotation 4s infinite linear;
+}
+
+.rotate-fast {
+  animation: rotation 1.3s infinite linear;
+}
+
+.spinner {
+  opacity: 0.1;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.snowflake {
+  height: 100px;
+  width: auto;
+}
+
+.move-me {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  position: relative;
+  margin: 0 0 10px 0;
+}
+.move-me-1 {
+  animation: move-in-steps 8s steps(4) infinite;
+}
+.move-me-2 {
+  animation: move-in-steps 8s steps(4, start) infinite;
+}
+.move-me-3 {
+  animation: move-in-steps 1s infinite;
+}
+
+@keyframes move-in-steps {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(40) rotate(180deg);
+    opacity: 0;
+  }
+}

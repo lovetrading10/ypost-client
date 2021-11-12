@@ -1,0 +1,132 @@
+:root {
+  --pageBackground: #fffcf3;
+  --brown100: #3a3628;
+  --brown200: #76624a;
+  --brown300: #a4663d;
+  --gray100: #a0a0a0;
+  --gray200: #6e6e6e;
+  --blue100: #0a3474;
+  --blue200: #052657;
+  --coral: #fc777b;
+  --primary1: #ffa13d;
+}
+
+.textMain {
+  color: var(--brown100);
+}
+
+.inputMain {
+  font-size: 16px;
+  width: 100%;
+  padding: 8px 8px;
+  margin: 4px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 2px solid;
+  border-color: #e2d5c2;
+}
+
+.inputMain:focus {
+  outline: none;
+}
+
+.buttonMain {
+  text-decoration: none;
+  margin: 10px 0;
+  width: 100%;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 10px 14px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonMain:hover {
+  text-decoration: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.buttonMain:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.textareaMain {
+  font-size: 16px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+/* primary button */
+.buttonPrimary {
+  color: white;
+  background-color: var(--primary1);
+}
+
+.buttonPrimary:hover {
+  background-color: #d88934;
+}
+
+.buttonSecondary {
+  color: black;
+  background-color: #f0f0f0;
+}
+
+.buttonSecondary:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.buttonRecord {
+  color: white;
+  background-color: #82bafc;
+}
+
+.btnPrimary {
+  color: white;
+}
+
+.buttonRecord:hover {
+  background-color: #588fcf;
+}
+
+.buttonShare {
+  background-color: #f9edc9;
+  color: #b7a87c;
+}
+
+.buttonShare:hover {
+  background: #b7a87c;
+  color: white;
+}
+
+/* others */
+.navigation {
+  color: var(--gray100);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.navigation:hover {
+  color: var(--gray200);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.btn-white-color {
+  color: white;
+}

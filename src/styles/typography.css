@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* *,
+html,
+body {
+  font-family: "Zilla Slab", serif;
+} */
+
+hr {
+  margin: 4px 0 4px 0;
+  opacity: 0.5;
+}
+
+.body {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.headerxl {
+  font-family: "Zilla Slab", serif;
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.header1 {
+  font-family: "Zilla Slab", serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.h1 {
+  font-family: "Zilla Slab", serif;
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.header2 {
+  font-family: "Zilla Slab", serif;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.header3 {
+  font-family: "Zilla Slab", serif;
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.buttonMain {
+  font-family: inherit;
+  font-weight: 600;
+  /* letter-spacing: 0.05em; */
+}
+
+.italic {
+  font-style: italic;
+}
+
+.textarea {
+  font-size: 22px;
+}
+
+.blurred {
+  color: transparent;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hyperlink {
+  color: #6eb4f5;
+  font-weight: bold;
+}
+
+.hyperlink:hover {
+  color: #4aa3f7;
+}
+
+.about-title {
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  color: var(--gray100);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.about-header {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--coral);
+  margin-bottom: 12px;
+}
+
+.about-quote {
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--gray100);
+  margin: 12px 0 12px 0;
+  line-height: 135%;
+  text-align: center;
+}
+
+.about-citation {
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+  color: var(--gray100);
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 14px;
+  margin-bottom: 12px;
+  line-height: 135%;
+}
+
+@media (max-width: 600px) {
+  .headerxl {
+    font-family: "Zilla Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+}
